@@ -1,0 +1,23 @@
+# hs1 annotated ribosomal RNAs
+grep -v  RNA5S /gpfs/projects/bsc83/Data/assemblies/T2T/feature_annotation/T2T_rDNA_gene_annotation.bed | grep RNA45S > hs1.annotated_RNA45S.bed
+# uniq copies
+cat <(grep chr13 hs1.annotated_RNA45S.bed  | sed -n -e '1p' -e '6p' -e '74p' -e '75p' -e '76p') <(grep chr14 hs1.annotated_RNA45S.bed  | sed -n -e '1p' -e '2p' -e '16p') <(grep chr15 hs1.annotated_RNA45S.bed  | sed -n -e '1p' -e '2p' -e '18p' -e '34p' -e '35p' -e '50p') <(grep chr21 hs1.annotated_RNA45S.bed  | sed -n -e '1p' -e '2p' -e '18p' -e '55p' -e '56p') <(grep chr22 hs1.annotated_RNA45S.bed  | sed -n -e '1p' -e '18p' -e '19p' -e '20p' -e '21p') > hs1.annotated_RNA45S.uniq.bed
+
+# 
+module load bedtools
+fastaFromBed -fi /gpfs/projects/bsc83/Data/assemblies/T2T/T2T.fa -bed hs1.annotated_RNA45S.bed > T2T.rDNA_45S.fa
+fastaFromBed -fi /gpfs/projects/bsc83/Data/assemblies/T2T/T2T.fa -bed hs1.annotated_RNA45S.uniq.bed > T2T.rDNA_45S.uniq.fa
+
+
+seqkit seq -w 15000 /gpfs/projects/bsc83/Projects/ribosomal_RNAs/Raquel/rDNA-Mapping-Genomes/data/Human_hs1-rDNA_genome_v1.0/chroms/hs1-rDNA_v1.0.chrR.47S_pre-rRNA.fa > chrR.47S_pre-rRNA.fa
+cat chrR.47S_pre-rRNA.fa T2T.rDNA_45S.uniq.renamed.fa > chrR_and_CHM13.47S_sequences.fa
+
+#From YAO
+cp ../04_T2T-YAO/45S/mat_pat/YAO_45S_mat_pat_unique.fa .
+
+
+module load samtools
+# Get chrR
+samtools faidx ../data/hs1-rDNA_v1.0.fa chrR > chrR.fa
+
+cat T2T_rDNA45S.24_uniq_morphs.fa YAO_45S_hp_unique.fa  chrR.fa  > rDNAs_45S.fa
