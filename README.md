@@ -7,19 +7,19 @@ This GitHub repository contains all the scripts used to process data and generat
 The folders in this repository are organized based on the order of the analysis. Inside each folder, you will find a README file that provides information on the procedure conducted, *IMAGES* and the *scripts* used.
 
 ### Folders
-#### Kmers
+#### 1. Kmers
 - **Description**: Analysis of the performance of the pipeline using reads without errors.
-#### Simulated reads
+#### 2. Simulated reads
 - **Description**: Analysis of the preprocessing step of the pipeline using simulated reads with sequencing errors.
-#### VC simulated
+#### 3. VC simulated
 - **Description**: Analysis of the performance of the variant calling pipeline testing different parameters.
-#### rDNAs
+#### 4. rDNAs
 - **Description**: Identification isolation and alignment of all sets of unique rDNA sequences currently available.
-#### Validation
+#### 6. Validation
 - **Description**: Variant calling of the best parameters of each version of the pipeline on the T2T-CHM13 WGS data. 
-#### Performance 
+#### 8. Performance 
 - **Description**: Quantification of the precision, recall, and F1 score of all tested parameters.
+
 ## Contact
-If you have any questions or need further information, please feel free to contact me:
     Email: alba.jimenez@alum.esci.upf.edu
     GitHub: https://github.com/AlbaJimLup
