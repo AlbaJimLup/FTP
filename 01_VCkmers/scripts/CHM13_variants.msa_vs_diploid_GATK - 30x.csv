@@ -1,0 +1,174 @@
+GATK,,,,,,,MSA,,,,,,,,
+CHROM,POS,TYPE,REF,ALT,class,region,chr,Pos,Ref,alt,class,region,,,alignment position
+chrR,9345,SNP,A,G,blacklisted,5'ETS,chrR,9345,A,G,blacklisted,5'ETS,same variant,,7
+chrR,9477,SNP,T,C,blacklisted,5'ETS,chrR,9477,T,C,blacklisted,5'ETS,same variant,,139
+chrR,9978,SNP,G,T,callable,5'ETS,chrR,9978,G,T,callable,5'ETS,same variant,,640
+chrR,10115,INDEL,C,CGG,blacklisted,5'ETS,chrR,10115,C,CGG,blacklisted,5'ETS,same variant,,777
+chrR,10301,SNP,G,A,blacklisted,5'ETS,chrR,10301,G,A,blacklisted,5'ETS,same variant,,963
+chrR,10629,SNP,C,G,callable,5'ETS,chrR,10629,C,G,callable,5'ETS,same variant,,1291
+chrR,10663,SNP,C,T,blacklisted,5'ETS,chrR,10663,C,T,blacklisted,5'ETS,same variant,,1325
+chrR,10848,INDEL,G,GT,callable,5'ETS,chrR,10848,G,GT,callable,5'ETS,same variant,,1510
+chrR,10976,INDEL,T,TC,blacklisted,5'ETS,chrR,10976,T,TC,blacklisted,5'ETS,same variant,,1638
+chrR,11021,INDEL,G,GT,callable,5'ETS,chrR,11021,G,GT,callable,5'ETS,same variant,,1683
+chrR,11094,SNP,T,C,callable,5'ETS,chrR,11094,T,C,callable,5'ETS,same variant,,1756
+chrR,11282,SNP,G,C,callable,5'ETS,chrR,11282,G,C,callable,5'ETS,same variant,,1944
+chrR,11283,SNP,T,G,callable,5'ETS,chrR,11283,T,G,callable,5'ETS,same variant,,1945
+chrR,11437,SNP,C,T,callable,5'ETS,chrR,11437,C,T,callable,5'ETS,same variant,,2099
+chrR,11482,SNP,G,C,callable,5'ETS,chrR,11482,G,C,callable,5'ETS,same variant,,2144
+chrR,11537,INDEL,T,TCGCC,callable,5'ETS,chrR,11537,T,TCGCC,callable,5'ETS,same variant,,2199
+chrR,11622,SNP,T,C,callable,5'ETS,chrR,11622,T,C,callable,5'ETS,same variant,,2284
+chrR,11676,SNP,A,G,callable,5'ETS,chrR,11676,A,G,callable,5'ETS,same variant,,2338
+chrR,11701,SNP,C,G,blacklisted,5'ETS,chrR,11701,C,G,blacklisted,5'ETS,same variant,,2363
+,,,,,,,chrR,11727,CGGTGGCGCCCCGCGTGGGGCC,-,callable,5'ETS,missing variant,deleccion en la secuencia 3 -> no hay reads mapados en el bam,2389
+chrR,11761,SNP,C,A,callable,5'ETS,chrR,11761,C,A,callable,5'ETS,same variant,,2423
+chrR,11830,MIXED,T,"TGCG,C",callable,5'ETS,chrR,11830,T,C/TGCG,callable,5'ETS,same variant,,2492
+chrR,11931,SNP,T,C,callable,5'ETS,chrR,11931,T,C,callable,5'ETS,same variant,,2593
+chrR,11958,SNP,A,C,blacklisted,5'ETS,chrR,11958,A,C,blacklisted,5'ETS,same variant,,2620
+chrR,12170,SNP,C,T,blacklisted,5'ETS,chrR,12170,C,T,blacklisted,5'ETS,same variant,,2832
+chrR,12361,SNP,G,T,blacklisted,5'ETS,chrR,12361,G,T,blacklisted,5'ETS,same variant,,3023
+chrR,12388,INDEL,C,CG,callable,5'ETS,chrR,12388,C,CG,callable,5'ETS,same variant,,3050
+chrR,12544,SNP,C,A,callable,5'ETS,chrR,12544,C,A,callable,5'ETS,same variant,,3206
+chrR,12637,INDEL,CCG,C,callable,5'ETS,chrR,12638,CG,-,callable,5'ETS,same variant,same variant reported differently,3300
+chrR,12723,SNP,A,G,callable,5'ETS,chrR,12723,A,G,callable,5'ETS,same variant,,3385
+,,,,,,,chrR,12862,CCGT,-,blacklisted,5'ETS,missing variant,,3524
+,,,,,,,chrR,12866,CCGCCCGTCCGCGGC,-,blacklisted,5'ETS,missing variant,,3528
+chrR,12869,SNP,C,T,blacklisted,5'ETS,,,,,,,extra variant,,
+chrR,12880,INDEL,CCCGT,C,blacklisted,5'ETS,chrR,12881,CCGT,-,blacklisted,5'ETS,same variant,same variant reported differently,3543
+,,,,,,,chrR,12888,T,C,blacklisted,5'ETS,missing variant,,3550
+chrR,12979,SNP,C,A,callable,5'ETS,chrR,12979,C,A,callable,5'ETS,same variant,,3641
+chrR,12990,INDEL,CT,C,callable,5'ETS,chrR,12991,T,-,callable,5'ETS,same variant,same variant reported differently,3653
+chrR,14251,INDEL,G,GGAA,callable,18S,chrR,14251,G,GGAA,callable,18S,same variant,,4913
+chrR,14894,INDEL,G,GCGC,callable,ITS1,chrR,14894,G,GCGC,callable,ITS1,same variant,,5556
+,,,,,,,chrR,14946,GCGCGT,-,blacklisted,ITS1,missing variant,,5608
+chrR,14980,SNP,T,C,blacklisted,ITS1,chrR,14980,T,C,blacklisted,ITS1,same variant,,5642
+,,,,,,,chrR,14988,C,CTCGT,blacklisted,ITS1,missing variant,,5650
+chrR,15032,SNP,A,G,callable,ITS1,chrR,15032,A,G,callable,ITS1,same variant,,5694
+,,,,,,,chrR,15043,GAGAC,-,blacklisted,ITS1,missing variant,,5705
+,,,,,,,chrR,15048,GGG,-,blacklisted,ITS1,missing variant,,5710
+chrR,15050,INDEL,G,GA,blacklisted,ITS1,,,,,,,extra variant,,
+chrR,15051,INDEL,G,"GA,GGA,GT",blacklisted,ITS1,chrR,15051,G,/A/GGAGA/GGAGAGA/GGA/GGGGAGA/GGGGA,blacklisted,ITS1,different alleles,GT and GA not in MSA,5713
+,,,,,,,chrR,15052,G,-,blacklisted,ITS1,missing variant,,5714
+chrR,15053,SNP,A,G,blacklisted,ITS1,chrR,15053,A,-/G,blacklisted,ITS1,missing allele,,5715
+,,,,,,,chrR,15054,G,C/-,blacklisted,ITS1,missing variant,,5716
+,,,,,,,chrR,15055,A,-,blacklisted,ITS1,missing variant,,5717
+,,,,,,,chrR,15057,A,G,blacklisted,ITS1,missing variant,,5719
+chrR,15058,INDEL,G,GAC,blacklisted,ITS1,,,,,,,extra variant,,
+chrR,15060,INDEL,GAGAGAGAGAGAA,G,blacklisted,ITS1,chrR,15060,GA,-,blacklisted,ITS1,different alleles,long deletion GATK vs 2 nucleotioges detetion in MSA,5722
+,,,,,,,chrR,15063,A,G,blacklisted,ITS1,missing variant,,5725
+,,,,,,,chrR,15065,A,-/T,blacklisted,ITS1,missing variant,,5727
+,,,,,,,chrR,15066,G,-,blacklisted,ITS1,missing variant,,5728
+,,,,,,,chrR,15067,AG,-,blacklisted,ITS1,missing variant,,5729
+chrR,15068,INDEL,GAGAA,G,blacklisted,ITS1,,,,,,,extra variant,,
+,,,,,,,chrR,15069,A,-,blacklisted,ITS1,missing variant,,5731
+,,,,,,,chrR,15070,G,GAG//GAA,blacklisted,ITS1,missing variant,,5732
+chrR,15071,INDEL,A,AG,blacklisted,ITS1,chrR,15071,A,-,blacklisted,ITS1,different alleles,insertion G (GATK) deletion A (MSA),5733
+chrR,15072,MIXED,A,"AG,G",blacklisted,ITS1,chrR,15072,A,-/G,blacklisted,ITS1,missing allele,missing deletion,5734
+chrR,15144,SNP,A,C,blacklisted,ITS1,chrR,15144,A,C,blacklisted,ITS1,same variant,,5806
+chrR,15157,SNP,G,A,blacklisted,ITS1,chrR,15157,G,A,blacklisted,ITS1,same variant,,5819
+chrR,15209,INDEL,T,"TG,TGG",blacklisted,ITS1,chrR,15209,T,TG/TGG,blacklisted,ITS1,same variant,,5871
+chrR,15305,SNP,C,T,callable,ITS1,chrR,15305,C,T,callable,ITS1,same variant,,5967
+chrR,15420,INDEL,G,GC,blacklisted,ITS1,chrR,15420,G,GC,blacklisted,ITS1,same variant,,6082
+chrR,15532,INDEL,T,TC,callable,ITS1,chrR,15532,T,TC,callable,ITS1,same variant,,6194
+chrR,15550,SNP,G,A,blacklisted,ITS1,chrR,15550,G,A,blacklisted,ITS1,same variant,,6212
+chrR,15609,SNP,C,A,blacklisted,ITS1,chrR,15609,C,A,blacklisted,ITS1,same variant,,6271
+chrR,15610,INDEL,C,CT,blacklisted,ITS1,chrR,15610,C,CT,blacklisted,ITS1,same variant,,6272
+chrR,15619,SNP,G,C,blacklisted,ITS1,chrR,15619,G,C,blacklisted,ITS1,same variant,,6281
+chrR,15636,SNP,T,G,callable,ITS1,chrR,15636,T,G,callable,ITS1,same variant,,6298
+chrR,15642,SNP,C,T,callable,ITS1,chrR,15642,C,T,callable,ITS1,same variant,,6304
+chrR,15852,INDEL,G,GGC,blacklisted,ITS1,,,,,,,extra variant,,
+chrR,15854,SNP,G,C,blacklisted,ITS1,chrR,15854,G,C,blacklisted,ITS1,same variant,,6516
+chrR,15858,INDEL,G,GTT,blacklisted,ITS1,chrR,15858,G,GGG/GTT,blacklisted,ITS1,missing allele,missing allele,6520
+chrR,15859,SNP,C,"T,G",blacklisted,ITS1,chrR,15859,C,T/G,blacklisted,ITS1,same variant,,6521
+chrR,15860,SNP,G,T,blacklisted,ITS1,chrR,15860,G,T,blacklisted,ITS1,same variant,,6522
+chrR,16215,SNP,T,C,blacklisted,ITS2,chrR,16215,T,C,blacklisted,ITS2,same variant,,6877
+,,,,,,,chrR,16219,G,A,blacklisted,ITS2,missing variant,,6881
+chrR,16230,SNP,C,T,blacklisted,ITS2,chrR,16230,C,T,blacklisted,ITS2,same variant,,6892
+,,,,,,,chrR,16242,C,T,blacklisted,ITS2,missing variant,,6904
+chrR,16243,INDEL,T,TC,blacklisted,ITS2,chrR,16243,T,TC,blacklisted,ITS2,same variant,,6905
+chrR,16494,INDEL,C,CCGT,callable,ITS2,chrR,16494,C,CCGT,callable,ITS2,same variant,,7156
+chrR,16585,SNP,A,C,blacklisted,ITS2,chrR,16585,A,C,blacklisted,ITS2,same variant,,7247
+chrR,16701,INDEL,TC,T,blacklisted,ITS2,chrR,16702,C,-,blacklisted,ITS2,same variant,same variant reported differently,7364
+chrR,16724,INDEL,G,GC,blacklisted,ITS2,chrR,16724,G,GC,blacklisted,ITS2,same variant,,7386
+chrR,16729,SNP,G,C,blacklisted,ITS2,chrR,16729,G,C,blacklisted,ITS2,same variant,,7391
+chrR,16844,SNP,T,C,callable,ITS2,chrR,16844,T,C,callable,ITS2,same variant,,7506
+chrR,16994,SNP,C,T,callable,ITS2,chrR,16994,C,T,callable,ITS2,same variant,,7656
+chrR,17085,SNP,T,G,blacklisted,ITS2,chrR,17085,T,G,blacklisted,ITS2,same variant,,7747
+chrR,17105,SNP,C,T,blacklisted,ITS2,chrR,17105,C,T,blacklisted,ITS2,same variant,,7767
+chrR,17124,SNP,T,C,blacklisted,ITS2,chrR,17124,T,C,blacklisted,ITS2,same variant,,7786
+chrR,17128,SNP,C,G,callable,ITS2,chrR,17128,C,G,callable,ITS2,same variant,,7790
+chrR,17137,INDEL,G,GC,callable,ITS2,chrR,17137,G,GC,callable,ITS2,same variant,,7799
+chrR,17318,SNP,A,G,blacklisted,28S,chrR,17318,A,G,blacklisted,28S,same variant,,7980
+chrR,17916,SNP,C,G,blacklisted,28S,chrR,17916,C,G,blacklisted,28S,same variant,,8578
+chrR,18021,INDEL,CCCGT,C,blacklisted,28S,chrR,18022,CCGT,-,blacklisted,28S,same variant,same variant reported differently,8684
+chrR,18040,INDEL,GTCC,G,blacklisted,28S,chrR,18040,G,-,blacklisted,28S,different alleles,,8702
+,,,,,,,chrR,18041,TC,-,blacklisted,28S,missing variant,completes the avobe,8703
+chrR,18043,INDEL,C,CG,blacklisted,28S,chrR,18043,C,/CG,blacklisted,28S,same variant,,8705
+chrR,18105,INDEL,G,"GGGCGGC,GGGC",blacklisted,28S,chrR,18105,G,GGGCGGC/GGGC,blacklisted,28S,same variant,,8767
+,,,,,,,chrR,18109,GGCGG,-,blacklisted,28S,missing variant,,8771
+,,,,,,,chrR,18114,C,/T/CGGT,blacklisted,28S,missing variant,,8776
+,,,,,,,chrR,18118,GG,-,blacklisted,28S,missing variant,,8780
+chrR,18120,MIXED,TGGC,"T,CGGC",blacklisted,28S,chrR,18120,T,C/-,blacklisted,28S,same variant,same variant reported differently,8782
+,,,,,,,chrR,18121,GGC,-,blacklisted,28S,same variant,GATK variant is spli in row 110 & 111 in the MSA,8783
+chrR,18123,SNP,C,T,blacklisted,28S,,,,,,,extra variant,,
+,,,,,,,chrR,18124,GG,-,blacklisted,28S,missing variant,,8786
+chrR,18126,MIXED,C,"CGGCGGT,CGGT,T",blacklisted,28S,chrR,18126,C,-/T,blacklisted,28S,different alleles,"CGGCGGT,CGGT not in MSA",8788
+chrR,18135,SNP,C,G,blacklisted,28S,chrR,18135,C,G,blacklisted,28S,same variant,,8797
+chrR,18151,INDEL,A,AC,blacklisted,28S,chrR,18151,A,AC,blacklisted,28S,same variant,,8813
+,,,,,,,chrR,18169,G,GC,blacklisted,28S,missing variant,,8831
+chrR,18390,SNP,G,T,blacklisted,28S,chrR,18390,G,T,blacklisted,28S,same variant,,9052
+,,,,,,,chrR,18402,C,T,callable,28S,missing variant,,9064
+chrR,18467,INDEL,CG,C,blacklisted,28S,chrR,18468,G,-,blacklisted,28S,same variant,reported differently,9130
+chrR,19403,INDEL,G,GGGC,blacklisted,28S,chrR,19403,G,GGGCGGC/GGGC,blacklisted,28S,missing allele,GGGCGGC not in GATK,10065
+,,,,,,,chrR,19412,CG,-,blacklisted,28S,missing variant,,10074
+,,,,,,,chrR,19414,GCGG,-,blacklisted,28S,missing variant,,10076
+,,,,,,,chrR,19418,C,/CG,blacklisted,28S,missing variant,,10080
+,,,,,,,chrR,19419,G,-,blacklisted,28S,missing variant,,10081
+,,,,,,,chrR,19420,G,C/-,blacklisted,28S,missing variant,,10082
+,,,,,,,chrR,19421,G,-,blacklisted,28S,missing variant,,10083
+,,,,,,,chrR,19424,T,G,blacklisted,28S,missing variant,,10086
+,,,,,,,chrR,19428,T,-,blacklisted,28S,missing variant,,10090
+,,,,,,,chrR,19432,G,T,blacklisted,28S,missing variant,,10094
+,,,,,,,chrR,19433,T,C,blacklisted,28S,missing variant,,10095
+,,,,,,,chrR,19435,C,T,blacklisted,28S,missing variant,,10097
+,,,,,,,chrR,19437,C,-/T,blacklisted,28S,missing variant,,10099
+,,,,,,,chrR,19439,C,CC/CCCCGC/CCCG/CCCCG/CCC,blacklisted,28S,missing variant,,10101
+,,,,,,,chrR,19440,C,-/G,blacklisted,28S,missing variant,,10102
+,,,,,,,chrR,19441,C,-/G,blacklisted,28S,missing variant,,10103
+chrR,19442,INDEL,G,"GC,GCCC,GCC",blacklisted,28S,chrR,19442,G,C/-,blacklisted,28S,different alleles,,10104
+chrR,19669,INDEL,G,GTT,callable,28S,chrR,19669,G,GTT,callable,28S,same variant,,10331
+chrR,19715,SNP,T,C,callable,28S,chrR,19715,T,C,callable,28S,same variant,,10377
+chrR,20210,INDEL,G,GC,blacklisted,28S,chrR,20210,G,GC,blacklisted,28S,same variant,,10872
+chrR,20246,SNP,T,C,blacklisted,28S,chrR,20246,T,C,blacklisted,28S,same variant,,10908
+chrR,20286,SNP,A,G,blacklisted,28S,chrR,20286,A,G,blacklisted,28S,same variant,,10948
+chrR,20295,INDEL,C,CCT,blacklisted,28S,chrR,20295,C,CCT/CCTCT,blacklisted,28S,missing allele,,10957
+chrR,20371,INDEL,G,GGA,blacklisted,28S,chrR,20371,G,GGA,blacklisted,28S,same variant,,11033
+chrR,20387,SNP,G,T,blacklisted,28S,chrR,20387,G,T,blacklisted,28S,same variant,,11049
+,,,,,,,chrR,20403,G,-,blacklisted,28S,missing variant,,11065
+chrR,20404,INDEL,G,GC,blacklisted,28S,chrR,20404,G,/GC,blacklisted,28S,same variant,,11066
+,,,,,,,chrR,20405,CCGCCGCGGGGCCCCGGCGGCGGG,-,blacklisted,28S,missing variant,,11067
+chrR,20575,INDEL,GC,"G,GCCCC",blacklisted,28S,chrR,20575,G,GC,blacklisted,28S,different alleles,swap reference and extra allele GCCCC,11237
+chrR,20580,INDEL,C,CCCCA,blacklisted,28S,chrR,20580,C,CCCCA/CCCC,blacklisted,28S,missing allele,,11242
+chrR,20585,SNP,C,A,blacklisted,28S,,,,,,,extra variant,,
+chrR,20586,SNP,A,C,blacklisted,28S,,,,,,,extra variant,,
+,,,,,,,chrR,20591,A,G,blacklisted,28S,missing variant,,11253
+chrR,20653,SNP,C,T,callable,28S,chrR,20653,C,T,callable,28S,same variant,,11315
+,,,,,,,chrR,20740,GGC,-,blacklisted,28S,missing variant,,11402
+,,,,,,,chrR,20743,GGC,-,blacklisted,28S,missing variant,,11405
+chrR,20746,MIXED,G,"A,GGCGGCA,GGCA",blacklisted,28S,chrR,20746,G,GGCGGCGGCA/GGCGGCA/GGCA,blacklisted,28S,different alleles,,11408
+chrR,21136,INDEL,CG,C,blacklisted,28S,,,,,,,extra variant,,
+chrR,21225,SNP,C,T,blacklisted,28S,chrR,21225,C,T,blacklisted,28S,same variant,,11887
+chrR,21591,INDEL,T,TTTTGGG,blacklisted,28S,chrR,21591,T,TTTTGGG,blacklisted,28S,same variant,,12253
+chrR,22037,INDEL,G,"GC,GCC",blacklisted,28S,chrR,22037,G,GCC/GC,blacklisted,28S,same variant,,12699
+chrR,22049,SNP,A,G,callable,28S,chrR,22049,A,G,callable,28S,same variant,,12711
+chrR,22059,SNP,C,T,blacklisted,28S,chrR,22059,C,T,blacklisted,28S,same variant,,12721
+chrR,22145,SNP,T,C,callable,28S,chrR,22145,T,C,callable,28S,same variant,,12807
+chrR,22309,INDEL,CCGCG,"CCG,C",callable,28S,chrR,22309,C,CCGCG,callable,28S,missing allele,"same variant, reported differently",12971
+,,,,,,,chrR,22310,CG,-,blacklisted,3'ETS,missing variant,,12972
+,,,,,,,chrR,22312,CG,-,blacklisted,3'ETS,missing variant,,12974
+,,,,,,,chrR,22314,CG,-,blacklisted,3'ETS,missing variant,,12976
+,,,,,,,chrR,22316,CG,-,blacklisted,3'ETS,missing variant,,12978
+,,,,,,,chrR,22328,T,C,blacklisted,3'ETS,missing variant,,12990
+chrR,22435,INDEL,T,"TGGG,TGG",blacklisted,3'ETS,chrR,22435,T,TGGG/TGG/TGGGGGTGGGG,blacklisted,3'ETS,missing allele,,13097
+,,,,,,,chrR,22639,T,TG,blacklisted,3'ETS,missing variant,,13301
+chrR,22722,SNP,T,C,callable,IGS,,,,,,,extra variant,exclude,
+chrR,22756,SNP,G,C,callable,IGS,,,,,,,extra variant,exclude,
