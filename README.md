@@ -1,4 +1,4 @@
-# Pipeline to analyze rDNA variant calling pipeline performance
+# Pipeline to analyze rDNA variant calling performance
 This GitHub repository contains all the scripts used to process data and generate my Final Degree Project results. 
 
 > NOTE: no data is available in this repository. 
