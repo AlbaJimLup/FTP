@@ -1,9 +1,0 @@
-evaluation,counts,freqs,class
-same variant,39,0.951219512195122,callable
-missing variant,1,0.024390243902439,callable
-missing allele,1,0.024390243902439,callable
-same variant,56,0.408759124087591,blacklisted
-missing variant,45,0.328467153284672,blacklisted
-FP,17,0.124087591240876,blacklisted
-different alleles,11,0.0802919708029197,blacklisted
-missing allele,8,0.0583941605839416,blacklisted
